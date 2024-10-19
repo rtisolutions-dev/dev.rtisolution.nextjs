@@ -19,11 +19,11 @@ This application allows users to create, update, Delete and view their profile d
 
 1. Clone the repository:
 
-   git clone https://github.com/yourusername/profile-management-app.git
+   git clone https://github.com/Aayushi-2000/Profile-management
 
 2. Navigate to the project directory:
 
-   cd profile-management-app
+   cd Profile-management-app
 
 3. Install the dependencies:
 
