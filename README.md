@@ -19,7 +19,7 @@ This application allows users to create, update, Delete and view their profile d
 
 1. Clone the repository:
 
-   git clone https://github.com/Aayushi-2000/Profile-management
+   git clone https://github.com/Aayushi-2000/Profile-management.git
 
 2. Navigate to the project directory:
 
