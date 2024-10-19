@@ -23,7 +23,7 @@ This application allows users to create, update, Delete and view their profile d
 
 2. Navigate to the project directory:
 
-   cd profile-management-app
+   cd Profile-management
 
 3. Install the dependencies:
 
