@@ -1,58 +1,65 @@
-# Profile Management Application
+<p align="center">
+ <a href="https://web3templates.com/?ref=nextly_github_logo">
+ <img src="https://user-images.githubusercontent.com/1884712/132941531-0fdd7acf-47ca-424e-b77f-1fab2e372a37.png" alt="W3T" width="100" height="41"/>
+ </a> 
+ <br>
+ <br>
+</p>
 
-## Overview
+# Nextly - Landing Page Template with Next.js & Tailwind CSS
 
-This application allows users to create, update, Delete and view their profile details.
+Nextly is a free landing page & marketing website template for  startups and indie projects. Its built with Next.js & TailwindCSS.
+And its completely open-source.
+ 
+![image](https://user-images.githubusercontent.com/1884712/121497169-03228680-c990-11eb-975a-e77fddc43de0.png)
 
-## Technologies Used
+## How to use
 
-- React
-- TypeScript
-- React Router
-- Axios
-- Context API
-- Material UI
-- React form hook 
-- yup validation
+Click on the [Use Template](https://github.com/surjithctly/nextly-template/generate) button on this page to clone this respository to your github account. Or you can also clone this respository using terminal or bash. 
 
-## Installation
+### 1\. Clone this Repository
 
-1. Clone the repository:
+```bash
+git clone https://github.com/surjithctly/nextly-template.git
+```
 
-   git clone https://github.com/Aayushi-2000/Profile-management.git
+### 2\. Navigate to the directory
 
-2. Navigate to the project directory:
+```
+cd nextly-template
+```
 
-   cd Profile-management
+### 3\. Install dependencies
 
-3. Install the dependencies:
+```
+yarn install
+# or
+npm install
+```
 
-   npm install
+### 5\. Run Dev Server
 
-4. Run the application:
+```
+yarn dev
+# or
+npm run dev
+```
 
-=  npm start
+## Deploy with Vercel
+
+Deploy this template using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example):
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/surjithctly/nextly-template&project-name=nextly-template&repository-name=nextly-template)
+
+
+## Author
+
+Surjith S M ( [@surjithctly](https://surjithctly.in/) )
+
+---
+
+[![image](https://www.datocms-assets.com/31049/1618983297-powered-by-vercel.svg)](https://vercel.com/?utm_source=web3templates&utm_campaign=oss)
 
 
 
-Mock API
-To run the mock API, you can use json-server:
 
-Install json-server globally (if you haven't already):
-
-bash
-
-npm install -g json-server
-
-Create a db.json file in the root directory:
-
-json
-
-{
-  "profile": {}
-}
-Start the server:
-
-bash
-
-json-server --watch db.json --port 3001
